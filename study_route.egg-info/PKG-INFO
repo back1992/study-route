@@ -1,0 +1,9 @@
+Metadata-Version: 2.4
+Name: study-route
+Version: 1.0.0
+Summary: Generate personalized study routes from chapter knowledge data
+Requires-Python: >=3.10
+Requires-Dist: networkx<4.0,>=3.0
+Provides-Extra: llm
+Requires-Dist: openai<3.0,>=2.0; extra == "llm"
+Requires-Dist: httpx<1.0,>=0.25; extra == "llm"
